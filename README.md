@@ -1,15 +1,14 @@
 # internapp
 
-A new Flutter project.
+A project that fetch dtat from firebase and show the results in app and a lot more features.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To use this code do the following:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### -> Add `google-services.json`(firebase config file) file in `internapp\android\app\`
+### -> Add 'YOUR_ADMOB_APP_ID' in file `internapp\android\app\src\main\AndroidManifest.xml`
+### -> Add 'YOUR_ADMOB_BANNER_AD_UNIT_ID' in file `internapp\lib\service\google_add.dart`
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
